@@ -1,0 +1,10 @@
+Laravel Project Creation
+
+cd <project folder>
+laravel new <project name>
+cd <project name>
+composer update
+copy env.example to .env file
+php artisan key:generate
+change DB_DATABASEE = <db_name>
+php artisan migrate
